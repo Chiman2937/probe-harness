@@ -15,3 +15,5 @@ git clone https://github.com/Chiman2937/probe-harness ~/app
 cd ~/app && git remote remove origin
 codex
 ```
+
+Codex를 켜면 `/model`에서 **6.1 Sol**, 추론 강도 **medium**을 고르고 `/status`로 확인합니다.
