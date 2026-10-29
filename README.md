@@ -7,4 +7,10 @@ SK하이닉스 AI 해커톤 2026 2차 예선에서 Codex와 작업할 때 쓰는
 
 ## 사용
 
-작업 폴더에 두 파일을 받은 뒤 `codex`를 실행합니다.
+clone한 폴더를 그대로 작업 폴더로 씁니다. 결과물이 이 저장소로 올라가지 않도록 원격 연결을 먼저 끊습니다.
+
+```bash
+git clone https://github.com/Chiman2937/probe-harness ~/app
+cd ~/app && git remote remove origin
+codex
+```
