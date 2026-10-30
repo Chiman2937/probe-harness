@@ -15,6 +15,7 @@
 
 ## 구조
 - `src/core/`: 판정·계산. 순수 함수로만 두고 테스트한다. 기능 단위로 파일을 나누고(예: `period.ts`, `grouping.ts`), 함수 하나에는 역할 하나만 맡긴다.
+- `src/core/types.ts`: 여러 파일이 함께 쓰는 데이터 타입(입력 행, 결과 형태). 한 파일에서만 쓰는 타입은 그 파일에 둔다.
 - `src/server.ts`: API와 `public/` 정적 파일 제공. core를 불러 결과를 전달만 한다.
 - `public/`: 화면(HTML·JS·CSS). 빌드 없이 쓰도록 JavaScript로 두고, 계산하지 않고 `/api/...` 결과를 보여 준다.
 - `test/`: core 단위 테스트와 API 테스트 (`npm test`)
