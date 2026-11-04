@@ -3,7 +3,7 @@
 SK하이닉스 AI 해커톤 2026 2차 예선에서 Codex와 작업할 때 쓰는 개인 작업 지침입니다. 정답이나 결과물 코드는 없습니다.
 
 - `AGENTS.md`: 작업 지침 (Codex가 자동으로 읽음)
-- `AGREEMENTS.md`: 정한 것 (확정된 요구사항, 설계 결정, 검증 방법)
+- `DECISIONS.md`: 정한 것 (확정된 요구사항, 설계 결정, 검증 방법)
 - `HANDOFF.md`: 지금 상태 (진행 상황, 구현 범위, 가정, 한계와 위험, 미결)
 
 ## 사용
@@ -12,7 +12,7 @@ SK하이닉스 AI 해커톤 2026 2차 예선에서 Codex와 작업할 때 쓰는
 
 ```bash
 curl -fsSO https://raw.githubusercontent.com/Chiman2937/probe-harness/main/AGENTS.md
-curl -fsSO https://raw.githubusercontent.com/Chiman2937/probe-harness/main/AGREEMENTS.md
+curl -fsSO https://raw.githubusercontent.com/Chiman2937/probe-harness/main/DECISIONS.md
 curl -fsSO https://raw.githubusercontent.com/Chiman2937/probe-harness/main/HANDOFF.md
 ```
 
